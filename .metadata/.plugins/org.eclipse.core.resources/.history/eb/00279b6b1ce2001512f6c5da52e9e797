@@ -1,0 +1,17 @@
+import thread
+def lower():
+	count=0
+	while count<5:
+		print(count)
+		count+=1		
+def upper():
+	count2=10
+	while count2>5:
+		print(count2)
+		count2-=1	
+try:
+   thread.start_new_thread( lower,)
+   print('test')
+   thread.start_new_thread( upper )
+except:
+   print "Error: unable to start thread"

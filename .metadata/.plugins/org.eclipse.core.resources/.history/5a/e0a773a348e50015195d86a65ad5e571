@@ -1,0 +1,15 @@
+import threading,time
+def lower():
+    count=0
+    while count<5:
+        print(count)
+        time.sleep(1)
+        count+=1
+def upper():
+    count=10
+    while count>5:
+        print(count)
+        time.sleep(1)
+        count-=1
+threading._MainThread(threading.Thread(upper,()))
+threading.Thread(lower,())

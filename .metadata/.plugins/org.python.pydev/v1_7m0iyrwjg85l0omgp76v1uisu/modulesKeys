@@ -1,0 +1,183 @@
+MODULES_MANAGER_V2
+Image
+OpenGL
+_ast
+_bisect
+_bytesio
+_codecs
+_codecs_cn
+_codecs_hk
+_codecs_iso2022
+_codecs_jp
+_codecs_kr
+_codecs_tw
+_collections
+_csv
+_datetime
+_fileio
+_functools
+_heapq
+_hotshot
+_imp
+_io
+_json
+_locale
+_lsprof
+_md5
+_multibytecodec
+_opcode
+_operator
+_pickle
+_random
+_sha
+_sha1
+_sha256
+_sha512
+_signal
+_sre
+_stat
+_string
+_struct
+_subprocess
+_symtable
+_thread
+_tracemalloc
+_warnings
+_weakref
+_winapi
+_winreg
+array
+atexit
+audioop
+binascii
+builtins
+cPickle
+cStringIO
+cmath
+datetime
+email
+errno
+exceptions
+faulthandler
+future_builtins
+gc
+hashlib
+imageop
+imp
+itertools
+marshal
+math
+mavgenerate|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\mavgenerate.py
+mmap
+msvcrt
+nt
+numpy
+operator
+os
+os.path
+parser
+pymavlink.DFReader|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\DFReader.py
+pymavlink.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\__init__.py
+pymavlink.dialects.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\dialects\__init__.py
+pymavlink.dialects.v09.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\dialects\v09\__init__.py
+pymavlink.dialects.v10.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\dialects\v10\__init__.py
+pymavlink.dialects.v10.ardupilotmega|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\dialects\v10\ardupilotmega.py
+pymavlink.examples.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\__init__.py
+pymavlink.examples.apmsetrate|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\apmsetrate.py
+pymavlink.examples.bwtest|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\bwtest.py
+pymavlink.examples.magtest|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\magtest.py
+pymavlink.examples.mav2pcap|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\mav2pcap.py
+pymavlink.examples.mav_accel|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\mav_accel.py
+pymavlink.examples.mavgps|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\mavgps.py
+pymavlink.examples.mavtcpsniff|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\mavtcpsniff.py
+pymavlink.examples.mavtest|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\mavtest.py
+pymavlink.examples.mavtester|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\mavtester.py
+pymavlink.examples.wptogpx|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\examples\wptogpx.py
+pymavlink.fgFDM|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\fgFDM.py
+pymavlink.generator.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\__init__.py
+pymavlink.generator.lib.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\__init__.py
+pymavlink.generator.lib.genxmlif.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\__init__.py
+pymavlink.generator.lib.genxmlif.xmlif4Dom|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlif4Dom.py
+pymavlink.generator.lib.genxmlif.xmlifApi|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifApi.py
+pymavlink.generator.lib.genxmlif.xmlifBase|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifBase.py
+pymavlink.generator.lib.genxmlif.xmlifDom|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifDom.py
+pymavlink.generator.lib.genxmlif.xmlifElementTree|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifElementTree.py
+pymavlink.generator.lib.genxmlif.xmlifMinidom|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifMinidom.py
+pymavlink.generator.lib.genxmlif.xmlifODict|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifODict.py
+pymavlink.generator.lib.genxmlif.xmlifUtils|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmlifUtils.py
+pymavlink.generator.lib.genxmlif.xmliftest|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\genxmlif\xmliftest.py
+pymavlink.generator.lib.minixsv.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\__init__.py
+pymavlink.generator.lib.minixsv.minixsvWrapper|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\minixsvWrapper.py
+pymavlink.generator.lib.minixsv.pyxsval|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\pyxsval.py
+pymavlink.generator.lib.minixsv.xsvalBase|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\xsvalBase.py
+pymavlink.generator.lib.minixsv.xsvalErrorHandler|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\xsvalErrorHandler.py
+pymavlink.generator.lib.minixsv.xsvalSchema|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\xsvalSchema.py
+pymavlink.generator.lib.minixsv.xsvalSimpleTypes|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\xsvalSimpleTypes.py
+pymavlink.generator.lib.minixsv.xsvalUtils|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\xsvalUtils.py
+pymavlink.generator.lib.minixsv.xsvalXmlIf|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\lib\minixsv\xsvalXmlIf.py
+pymavlink.generator.mavcrc|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavcrc.py
+pymavlink.generator.mavgen|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen.py
+pymavlink.generator.mavgen_c|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_c.py
+pymavlink.generator.mavgen_cs|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_cs.py
+pymavlink.generator.mavgen_java|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_java.py
+pymavlink.generator.mavgen_javascript|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_javascript.py
+pymavlink.generator.mavgen_objc|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_objc.py
+pymavlink.generator.mavgen_python|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_python.py
+pymavlink.generator.mavgen_swift|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_swift.py
+pymavlink.generator.mavgen_wlua|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavgen_wlua.py
+pymavlink.generator.mavparse|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavparse.py
+pymavlink.generator.mavtemplate|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavtemplate.py
+pymavlink.generator.mavtestgen|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\generator\mavtestgen.py
+pymavlink.mavextra|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\mavextra.py
+pymavlink.mavparm|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\mavparm.py
+pymavlink.mavutil|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\mavutil.py
+pymavlink.mavwp|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\mavwp.py
+pymavlink.quaternion|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\quaternion.py
+pymavlink.rotmat|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\rotmat.py
+pymavlink.setup|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\setup.py
+pymavlink.tools.AccelSearch|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\AccelSearch.py
+pymavlink.tools.MPU6KSearch|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\MPU6KSearch.py
+pymavlink.tools.__init__|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\__init__.py
+pymavlink.tools.magfit|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\magfit.py
+pymavlink.tools.magfit_delta|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\magfit_delta.py
+pymavlink.tools.magfit_gps|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\magfit_gps.py
+pymavlink.tools.magfit_motors|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\magfit_motors.py
+pymavlink.tools.magfit_rotation_gps|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\magfit_rotation_gps.py
+pymavlink.tools.magfit_rotation_gyro|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\magfit_rotation_gyro.py
+pymavlink.tools.mavextract|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavextract.py
+pymavlink.tools.mavfft|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavfft.py
+pymavlink.tools.mavflightmodes|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavflightmodes.py
+pymavlink.tools.mavflighttime|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavflighttime.py
+pymavlink.tools.mavgen|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavgen.py
+pymavlink.tools.mavgpslag|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavgpslag.py
+pymavlink.tools.mavgpslock|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavgpslock.py
+pymavlink.tools.mavgraph|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavgraph.py
+pymavlink.tools.mavkml|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavkml.py
+pymavlink.tools.mavlogdump|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavlogdump.py
+pymavlink.tools.mavloss|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavloss.py
+pymavlink.tools.mavmission|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavmission.py
+pymavlink.tools.mavparmdiff|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavparmdiff.py
+pymavlink.tools.mavparms|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavparms.py
+pymavlink.tools.mavplayback|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavplayback.py
+pymavlink.tools.mavsearch|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavsearch.py
+pymavlink.tools.mavsigloss|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavsigloss.py
+pymavlink.tools.mavsummarize|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavsummarize.py
+pymavlink.tools.mavtogpx|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavtogpx.py
+pymavlink.tools.mavtomfile|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\mavtomfile.py
+pymavlink.tools.python_array_test_recv|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\python_array_test_recv.py
+pymavlink.tools.python_array_test_send|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\python_array_test_send.py
+pymavlink.tools.quaterniontest|C:\Users\Taylor\Documents\GitHub\Mavlink Python Bindings\mavlink\pymavlink\tools\quaterniontest.py
+pytest
+scipy
+signal
+socket
+strop
+sys
+thread
+time
+winreg
+wx
+wxPython
+xxsubtype
+zipimport
+zlib
