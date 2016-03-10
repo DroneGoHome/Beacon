@@ -1,0 +1,7 @@
+#import winsound
+#s=winsound.PlaySound("C:/Users/Taylor/Documents/siren.wav",winsound.SND_FILENAME)
+
+
+import collections
+from FileHandler import readUIFile
+print(readUIFile("C:/Users/Taylor/Documents/UI Files/ui1.txt")["Name"])

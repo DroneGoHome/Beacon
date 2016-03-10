@@ -1,0 +1,21 @@
+from Tkinter import *
+sys.path.append(r"C:\Users\Taylor\AppData\Local\Programs\Python\Python35-32\Lib\site-packages")
+
+def save_entry_fields():
+    master.quit
+    with open("C:\\Users\\Taylor\\Documents\\UI Files\\UI1.txt",'a') as myfile:
+        myfile.write("Name: %s\nPhone Number: %s" %(e1.get(), e2.get()))
+master = Tk()
+Label(master, text="Name:    ").grid(row=0)
+Label(master, text="Phone Number:    ").grid(row=1)
+
+e1 = Entry(master)
+e2 = Entry(master)
+
+e1.grid(row=0, column=1)
+e2.grid(row=1, column=1)
+
+Button(master, text='Quit', command=master.quit).grid(row=3, column=0, sticky=W, pady=4)
+Button(master, text='Save', command=save_entry_fields).grid(row=3, column=1, sticky=W, pady=4)
+
+mainloop( )

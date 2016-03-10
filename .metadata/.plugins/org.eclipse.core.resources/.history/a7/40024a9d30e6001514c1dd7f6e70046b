@@ -1,0 +1,6 @@
+import collections
+def readUIFile(loc):
+    fileText=open(loc,"r").read().sub("\n","")
+    print(fileText.split(":"))
+    
+readUIFile("C:/Users/Taylor/Documents/UI Files/ui1.txt")

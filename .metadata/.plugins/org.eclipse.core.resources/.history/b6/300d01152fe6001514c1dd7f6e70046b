@@ -1,0 +1,5 @@
+def readUIFile(loc):
+    file=open(loc,"r")
+    print(file.read())
+    
+readUIFile("C:/Users/Taylor/Documents/UI Files/ui1.txt")

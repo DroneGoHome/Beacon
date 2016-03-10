@@ -1,0 +1,6 @@
+#import winsound
+#s=winsound.PlaySound("C:/Users/Taylor/Documents/siren.wav",winsound.SND_FILENAME)
+
+
+fields=['Name:    ','Phone Number:    ','Cellular Provider:    ','Email Address:    ']
+print(fields[1])
