@@ -1,2 +1,0 @@
-from TestLib import import test
-print(test(5))

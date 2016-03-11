@@ -1,7 +1,0 @@
-import collections, re
-def readUIFile(loc):
-    fileText=open(loc,"r").read()
-    #fT2=re.sub('\n',"",fileText)
-    print(fileText.split("\n").split(":"))
-    
-readUIFile("C:/Users/Taylor/Documents/UI Files/ui1.txt")

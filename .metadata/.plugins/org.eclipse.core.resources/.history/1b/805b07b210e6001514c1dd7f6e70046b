@@ -1,4 +1,0 @@
-userName=input("Name:")
-userPhone=raw_input("Phone Number:")
-print("name:"+userName)
-print("#:"+userPhone)

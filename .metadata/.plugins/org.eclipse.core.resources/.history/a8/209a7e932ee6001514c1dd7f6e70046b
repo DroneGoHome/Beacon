@@ -1,3 +1,0 @@
-def readUIFile(loc):
-    file=open(loc,"r")
-    print(file)

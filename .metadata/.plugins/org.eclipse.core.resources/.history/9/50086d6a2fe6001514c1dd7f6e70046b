@@ -1,5 +1,0 @@
-def readUIFile(loc):
-    fileText=open(loc,"r").read()
-    print(fileText)
-    
-readUIFile("C:/Users/Taylor/Documents/UI Files/ui1.txt")
