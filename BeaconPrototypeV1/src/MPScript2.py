@@ -57,7 +57,7 @@ for cycle in range (0,40):
                             else:
                                 #send serial data for NFBehavior
                                 print(key+" is in no-fly")
-								#attempts to initiate RTL mode
+                                #attempts to initiate RTL mode
                                 for attempt in range (1,bretry+1):
                                     if cs.mode != nFBehavior: #@UndefinedVariable                                  
                                         Script.ChangeMode(nFBehavior)#@UndefinedVariable

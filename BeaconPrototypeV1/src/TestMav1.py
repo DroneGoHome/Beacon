@@ -1,5 +1,5 @@
-import Common
+import common
 
-mav=Common
+mav=common
 
 print(mav.MAV_ESTIMATOR_TYPE_GPS)

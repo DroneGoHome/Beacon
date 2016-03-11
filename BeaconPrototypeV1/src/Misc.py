@@ -3,6 +3,13 @@
 
 
 import collections
-from FileHandler import readUIFile
+from filehandler import readUIFile
+
+
+from moduletest import *
 uiDictionary=collections.OrderedDict(readUIFile("C:/Users/Taylor/Documents/UI Files/ui1.txt"))
-print(uiDictionary["name".upper()])
+print(uiDictionary)
+sendsms(uiDictionary["NAME"], uiDictionary["NUMBER"], uiDictionary["CARRIER"])
+print(uiDictionary["NAME"], uiDictionary["NUMBER"], uiDictionary["CARRIER"])
+
+
