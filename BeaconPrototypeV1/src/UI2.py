@@ -26,11 +26,11 @@ for field in range(0,len(fields)):
  
 for carrier in range(0,len(carriers)):
     carrierRB=Radiobutton(master,text=carriers[carrier].upper(), variable=rbsel, value=carriers[carrier].upper())
-    carrierRB.grid(row=3,column=carrier)
+    carrierRB.grid(row=len(entries),column=carrier)
     Radiobutton.select(carrierRB)
 
 
-Button(master, text='Quit', command=master.quit).grid(row=4, column=0, sticky=W, pady=4)
-Button(master, text='Save', command=save_entry_fields).grid(row=4, column=1, sticky=W, pady=4)
+Button(master, text='Quit', command=master.quit).grid(row=len(entries)+1, column=0, sticky=W, pady=4)
+Button(master, text='Save', command=save_entry_fields).grid(row=len(entries)+1, column=1, sticky=W, pady=4)
 
 mainloop()

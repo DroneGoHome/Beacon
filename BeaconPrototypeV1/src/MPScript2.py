@@ -12,9 +12,9 @@ bretry=5
 bLoc=[40.535828, -74.300070, 200] #Beacon Lat/Long/Alt
 droneList=collections.OrderedDict()  #Drone dictionary
 #droneList["drone1"]=[cs.lat, cs.lng, cs.alt] #Key is drone ID. Drone Lat/Long/Alt
+droneList["DGH Prototype DIY Quadcopter"]=[cs.lat, cs.lng, cs.alt] #@UndefinedVariable
 for cycle in range (0,40):
     #loop through whole dictionary
-    droneList["DGH Prototype DIY Quadcopter"]=[cs.lat, cs.lng, cs.alt] #@UndefinedVariable
     for key, value in droneList.items():
         #print(key+': loop '+str(cycle))
         #adjust beacon location accuracy for comparison to drone
@@ -47,7 +47,7 @@ for cycle in range (0,40):
                     elif dDist<=bRadius:
                         print(key+" is inside beacon lat/long")
                         try:
-                            if droneList["drone1"][2]>bLoc[2]:
+                            if droneList[key][2]>bLoc[2]:
                                 #send serial data about beacon and request drone info
                                 print(key+" is over no-fly")
                                 dStamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d')

@@ -1,4 +1,4 @@
-def PrintLoc(droneLocation):
+def print_loc(droneLocation):
     print(droneLocation[0])
     print(droneLocation[1])
     print(droneLocation[2])
@@ -17,3 +17,20 @@ def sendsms(name,number,carrier):
         server.starttls()
         server.login('dghprototype@gmail.com','Beacon01')
         server.sendmail( 'dghprototype@gmail.com', number+'@'+gateway[carrier], 'Hello '+name+', this is a message from your DGH defense system. There has been a perimeter breach')
+def git_upload():
+    import subprocess, sys
+    p = subprocess.Popen([r"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-ExecutionPolicy", "Unrestricted", "-File",
+              "C:/Users/Taylor/Documents/LiClipse Workspace/BeaconPrototypeV1/src/Git.ps1"], 
+              stdout=sys.stdout)
+    p.communicate()
+    print("GIT upload Complete")
+    
+def readUIFile(loc):
+    import collections, re
+    fileDict=collections.OrderedDict()
+    fileText=open(loc,"r").read()
+    fileText=re.sub('\n',":",fileText).upper()
+    fileArray=fileText.split(":")
+    for n in range(0,len(fileArray)-1,2):
+        fileDict[fileArray[n]]=fileArray[n+1]
+    return(fileDict)
