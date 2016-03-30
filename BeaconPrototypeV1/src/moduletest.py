@@ -34,3 +34,13 @@ def readUIFile(loc):
     for n in range(0,len(fileArray)-1,2):
         fileDict[fileArray[n]]=fileArray[n+1]
     return(fileDict)
+
+def updateLog(dStamp,tStamp,key,dDist,message):
+    import os.path
+    fPath="C:/Users/Taylor/Documents/GitHub/DataCollection/test.csv"
+    if not os.path.exists(fPath):
+        print("true")
+        with open("C:\\Users\\Taylor\\Documents\\GitHub\\DataCollection\\test.csv",'a') as myfile:
+                                        myfile.write("Local Date;Local Time;UAS ID;Distance From Beacon;Beacon Interaction")
+    with open("C:\\Users\\Taylor\\Documents\\GitHub\\DataCollection\\test.csv",'a') as myfile:
+                                        myfile.write("\n"+dStamp+";"+tStamp+";"+key+";"+str(dDist)+";"+message)
